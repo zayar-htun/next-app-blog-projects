@@ -31,3 +31,31 @@ a {
     flex-direction: column;
     justify-content: space-between;
 }
+
+@media (max-width: 1440px) {
+    .container {
+        width: 1200px;
+    }
+}
+@media (max-width: 1200px) {
+    .container {
+        width: 1000px;
+    }
+}
+@media (max-width: 1000px) {
+    .container {
+        width: 800px;
+    }
+}
+@media (max-width: 800px) {
+    .container {
+        width: 600px;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        width: 400px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
